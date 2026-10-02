@@ -8,13 +8,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <!-- Fundo animado com partículas -->
     <div class="background-animation">
         <canvas id="particleCanvas"></canvas>
         <div class="animated-gradient"></div>
     </div>
 
-    <!-- Navegação -->
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
@@ -29,7 +27,7 @@
                 <li><a href="#combater" class="nav-link">Combater</a></li>
                 <li><a href="#reflexao" class="nav-link">Reflexão</a></li>
             </ul>
-            <div class="hamburger">
+            <div class="hamburger" aria-label="Menu">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -37,28 +35,58 @@
         </div>
     </nav>
 
-    <!-- Seção Home -->
     <section id="home" class="hero">
         <div class="hero-content">
             <h1 class="hero-title">CYBERBULLYING</h1>
             <p class="hero-subtitle">Conhecer para Combater</p>
             <p class="hero-phrase">"O respeito também deve existir no mundo digital."</p>
-            
-            <!-- Imagem Principal Sofisticada -->
+
             <div class="image-container">
                 <div class="image-wrapper">
-                    <img src="https://images.unsplash.com/photo-1516534775068-bb57fa68f21b?w=800&q=80" alt="Cyberbullying" class="main-image">
+                    <div class="hero-visual" aria-label="Visual tecnológico do tema cyberbullying">
+                        <div class="device-header">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="device-screen">
+                            <div class="screen-panel left-panel">
+                                <div class="status-pill">ONLINE</div>
+                                <div class="signal-lines">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="screen-panel main-panel">
+                                <div class="mini-card card-a">
+                                    <strong>86%</strong>
+                                    <small>Respeito</small>
+                                </div>
+                                <div class="mini-card card-b">
+                                    <strong>24/7</strong>
+                                    <small>Atitude</small>
+                                </div>
+                                <div class="central-orb"></div>
+                            </div>
+                            <div class="screen-panel right-panel">
+                                <div class="bars">
+                                    <i></i><i></i><i></i><i></i><i></i>
+                                </div>
+                                <p>Combate<br>com empatia</p>
+                            </div>
+                        </div>
+                    </div>
                     <div class="image-glow"></div>
                 </div>
             </div>
 
-            <a href="#definicao" class="scroll-arrow">
+            <a href="#definicao" class="scroll-arrow" aria-label="Ir para a seção seguinte">
                 <i class="fas fa-chevron-down"></i>
             </a>
         </div>
     </section>
 
-    <!-- Seção 01: O que é Cyberbullying -->
     <section id="definicao" class="section definition-section">
         <div class="container">
             <div class="section-header">
@@ -100,7 +128,6 @@
         </div>
     </section>
 
-    <!-- Seção 02: Tipos de Cyberbullying -->
     <section id="tipos" class="section types-section">
         <div class="container">
             <div class="section-header">
@@ -160,7 +187,6 @@
         </div>
     </section>
 
-    <!-- Seção 03: Consequências -->
     <section id="consequencias" class="section consequences-section">
         <div class="container">
             <div class="section-header">
@@ -222,7 +248,6 @@
         </div>
     </section>
 
-    <!-- Seção 04: Como Combater -->
     <section id="combater" class="section combat-section">
         <div class="container">
             <div class="section-header">
@@ -287,7 +312,6 @@
         </div>
     </section>
 
-    <!-- Seção 05: Reflexão -->
     <section id="reflexao" class="section reflection-section">
         <div class="reflection-container">
             <div class="reflection-content fade-in-up">
@@ -299,17 +323,15 @@
         </div>
     </section>
 
-    <!-- Seção Materiais -->
     <section class="materials-section">
         <div class="container">
-            <a href="https://drive.google.com/drive/folders/105Fv8iP2qTlMxx3P47lO4y-o5YMAQcrq" target="_blank" class="materials-button fade-in-up">
+            <a href="https://drive.google.com/drive/folders/105Fv8iP2qTlMxx3P47lO4y-o5YMAQcrq" target="_blank" rel="noreferrer" class="materials-button fade-in-up">
                 <i class="fas fa-folder-open"></i>
                 Materiais do Projeto
             </a>
         </div>
     </section>
 
-    <!-- Rodapé -->
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
